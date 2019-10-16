@@ -1,6 +1,8 @@
 package com.excercise10oop.app;
 
 import com.excercise10oop.model.Cat;
+import com.excercise10oop.model.Persa;
+import com.excercise10oop.model.Angora;
 
 public class CatApp {
 
@@ -17,6 +19,13 @@ public class CatApp {
 		System.out.println("Michi's Age: "+michi.getAge());
 		
 		System.out.println(michi.ToString());
+		
+		Cat michi;
+		michi = new Persa();
+		michi = new Angora();
+		
+		Angora tom =new Angora(2,"Tom",4);
+		System.out.println(tom.ToString());
 	}
 
 }
